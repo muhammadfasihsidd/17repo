@@ -16,7 +16,8 @@ jobs:
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: ${{ secrets.SSH_KEY }}
+          ssh-private-key: ${{ secrets.ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAzESKO6mTfDKM/+GxtGOpUVjuL/tFeH8vvaSCNMaEI/ muhamadfasihsiddiqui@gmail.com
+ }}
 
       - name: Deploy to Odoo server
         env:
